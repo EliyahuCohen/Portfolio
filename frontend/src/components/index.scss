@@ -1,0 +1,36 @@
+.app__social {
+  cursor: pointer;
+}
+.app__social > div {
+  position: relative;
+  &:after {
+    position: absolute;
+    transition: 0.2s;
+    scale: 0;
+    left: 100%;
+    height: fit-content;
+    width: fit-content;
+    content: attr(datacontect);
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+.app__social .icon {
+  color: white !important;
+}
+.app__social > div:hover::after {
+  scale: 1;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.app__social > div:nth-child(1) {
+  background: #0a66c2;
+}
+
+.app__social > div:nth-child(2) {
+  background: #24292f;
+}
+.app__social > div:nth-child(3) {
+  background: #25d366;
+}
