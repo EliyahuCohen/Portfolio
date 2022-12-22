@@ -4,6 +4,7 @@ import "./footer.scss";
 import { images } from "../../constants/index";
 import AppWrap from "../../wrapper/AppWrap";
 import { client } from "../../client";
+import SocialMedia from "../../components/SocialMedia";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -54,6 +55,9 @@ const Footer = () => {
             +972 585669183
           </a>
         </div>
+      </div>
+      <div className="footerSocial">
+        <SocialMedia />
       </div>
 
       {!isFormSubmited ? (

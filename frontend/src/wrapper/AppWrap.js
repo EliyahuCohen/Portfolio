@@ -2,7 +2,7 @@ import React from "react";
 import NavigationDots from "../components/NavigationDots";
 import SocialMedia from "../components/SocialMedia";
 // high order component
-const AppWrap = (Components, idName, classNames, color) =>
+const AppWrap = (Component, idName, classNames, color) =>
   function HOC() {
     return (
       <div
@@ -12,7 +12,7 @@ const AppWrap = (Components, idName, classNames, color) =>
       >
         <SocialMedia />
         <div className="app__wrapper app__flex">
-          <Components />
+          <Component />
 
           <div className="copyright">
             <p className="p-text">2022 Eliyahu</p>
