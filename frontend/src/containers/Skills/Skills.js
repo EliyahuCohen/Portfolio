@@ -53,7 +53,10 @@ const Skills = () => {
           {experience &&
             experience?.map((work, index) => {
               return (
-                <motion.div className="app__skills-exp-item" key={work.year}>
+                <motion.div
+                  className="app__skills-exp-item"
+                  key={work.year + index}
+                >
                   <div className="app__skills-exp-year">
                     <motion.p
                       className="bold-text"
@@ -76,6 +79,7 @@ const Skills = () => {
                         >
                           <h4 className="bold-text">{single.name}</h4>
                           <p className="p-text">{single.company}</p>
+                          <p style={{ color: "#555" }}>{single.desc}</p>
                           <motion.div
                             className="saperator"
                             whileInView={{ opacity: [0, 1] }}
