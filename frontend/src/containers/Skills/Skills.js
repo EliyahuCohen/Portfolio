@@ -79,7 +79,9 @@ const Skills = () => {
                         >
                           <h4 className="bold-text">{single.name}</h4>
                           <p className="p-text">{single.company}</p>
-                          <p style={{ color: "#555" }}>{single.desc}</p>
+                          <p style={{ color: "#555", maxWidth: "1000px" }}>
+                            {single.desc}
+                          </p>
                           <motion.div
                             className="saperator"
                             whileInView={{ opacity: [0, 1] }}
