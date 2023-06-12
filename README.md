@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/100947769/209104107-3fd97687-f259-4076-9353-735e853b83b0.png)
 
 ## About page
-<img width="1432" alt="image" src="https://github.com/EliyahuCohen/Portfolio/assets/100947769/511b8c6d-8fe5-4d9b-8af1-34e7dc4e112f">
+![image](https://github.com/EliyahuCohen/Portfolio/assets/100947769/2fe010b1-75c3-4a14-b9fb-083ab5fa22cb))
 ## Work page
 ![image](https://user-images.githubusercontent.com/100947769/209104451-0c5a8077-58db-492f-906f-cc4027c67b5b.png)
 
