@@ -1,20 +1,20 @@
 # Portfolio
 ## My personal portfolio made with React.js Sanity CMS and Framer motion 
 ## Also using the HOC technique to wrap our components with additional things such as links and more 
-## of course the website is completlly responsive for all devices
 
 
 ## Home Page
-![image](https://user-images.githubusercontent.com/100947769/209104107-3fd97687-f259-4076-9353-735e853b83b0.png)
+![image](https://user-images.githubusercontent.com/100947769/208485122-9b464e87-8074-4275-9325-b8ccbee84242.png)
 
 ## About page
-![image](https://user-images.githubusercontent.com/100947769/209104200-4bb1eaef-ba3a-4e24-9731-f78047475eda.png)
+<img width="1205" alt="image" src="https://github.com/EliyahuCohen/Portfolio/assets/100947769/241d4a3e-bbaf-462f-b359-a87fef3886b7">
+
 
 ## Work page
-![image](https://user-images.githubusercontent.com/100947769/209104451-0c5a8077-58db-492f-906f-cc4027c67b5b.png)
+![image](https://user-images.githubusercontent.com/100947769/208485290-c7ee2ec2-2905-4368-9066-9aa236538396.png)
 
 ## Skills page
-![image](https://user-images.githubusercontent.com/100947769/209104533-f13cad59-6db9-49ab-bac5-cd336c5324c7.png)
+<img width="1867" alt="image" src="https://github.com/EliyahuCohen/Portfolio/assets/100947769/75496587-ae74-41f4-8f59-04f94ccc93ef">
 
 ## Contact page
-![image](https://user-images.githubusercontent.com/100947769/209104615-f33a0805-935a-405e-ac88-030471b88faa.png)
+![image](https://user-images.githubusercontent.com/100947769/208485457-08ce70eb-5857-44a9-b181-3a10ef3665e2.png)
